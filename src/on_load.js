@@ -14,10 +14,10 @@ function init() {
     ", width=" + arrImages[i].width + 
     ", style.height=" + arrImages[i].style.height + 
     ", style.width=" + arrImages[i].style.width + 
-    "<\/li>";
+    "</li>";
   }
 
-  strHtml += "<\/ul>";
+  strHtml += "</ul>";
 
   objOutput.innerHTML = strHtml;
 };
